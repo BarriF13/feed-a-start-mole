@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body{
+  cursor: url(./img/cursor.png), default;
+  background-color: #c0c86d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg{
+  background: url(./img/background.png) no-repeat;
+  width: 1920px;
+  height: 1080px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
